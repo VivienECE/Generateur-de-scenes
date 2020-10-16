@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Projet" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Projet" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="Objets" />
+					<Add directory="Primitives" />
+					<Add directory="Scenes" />
+					<Add directory="Scenes/ciel" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Projet" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="Objets" />
+					<Add directory="Primitives" />
+					<Add directory="Scenes" />
+					<Add directory="Scenes/ciel" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Aleatoire/util.cpp" />
+		<Unit filename="Aleatoire/util.h" />
+		<Unit filename="Objets/coords.cpp" />
+		<Unit filename="Objets/coords.h" />
+		<Unit filename="Objets/etoile.cpp" />
+		<Unit filename="Objets/etoile.h" />
+		<Unit filename="Objets/etoilefilante.cpp" />
+		<Unit filename="Objets/etoilefilante.h" />
+		<Unit filename="Objets/fond.cpp" />
+		<Unit filename="Objets/fond.h" />
+		<Unit filename="Objets/herbe.cpp" />
+		<Unit filename="Objets/herbe.h" />
+		<Unit filename="Objets/lune.cpp" />
+		<Unit filename="Objets/lune.h" />
+		<Unit filename="Objets/montagne.cpp" />
+		<Unit filename="Objets/montagne.h" />
+		<Unit filename="Objets/nuage.cpp" />
+		<Unit filename="Objets/nuage.h" />
+		<Unit filename="Objets/objet.cpp" />
+		<Unit filename="Objets/objet.h" />
+		<Unit filename="Objets/soleil.cpp" />
+		<Unit filename="Objets/soleil.h" />
+		<Unit filename="Objets/vague.cpp" />
+		<Unit filename="Objets/vague.h" />
+		<Unit filename="Primitives/disk.cpp" />
+		<Unit filename="Primitives/disk.h" />
+		<Unit filename="Primitives/ellipse.cpp" />
+		<Unit filename="Primitives/ellipse.h" />
+		<Unit filename="Primitives/ellipse_gradient.cpp" />
+		<Unit filename="Primitives/ellipse_gradient.h" />
+		<Unit filename="Primitives/line.cpp" />
+		<Unit filename="Primitives/line.h" />
+		<Unit filename="Primitives/polygone.cpp" />
+		<Unit filename="Primitives/polygone.h" />
+		<Unit filename="Primitives/polygone_gradient.cpp" />
+		<Unit filename="Primitives/polygone_gradient.h" />
+		<Unit filename="Primitives/polyline.cpp" />
+		<Unit filename="Primitives/polyline.h" />
+		<Unit filename="Primitives/primitive.cpp" />
+		<Unit filename="Primitives/primitive.h" />
+		<Unit filename="Primitives/triangle.cpp" />
+		<Unit filename="Primitives/triangle.h" />
+		<Unit filename="Scenes/ciel.cpp" />
+		<Unit filename="Scenes/ciel.h" />
+		<Unit filename="Scenes/ciel/jour.cpp" />
+		<Unit filename="Scenes/ciel/jour.h" />
+		<Unit filename="Scenes/ciel/nuit.cpp" />
+		<Unit filename="Scenes/ciel/nuit.h" />
+		<Unit filename="Scenes/ciel/soir.cpp" />
+		<Unit filename="Scenes/ciel/soir.h" />
+		<Unit filename="Scenes/plaine.cpp" />
+		<Unit filename="Scenes/plaine.h" />
+		<Unit filename="Scenes/plan.cpp" />
+		<Unit filename="Scenes/plan.h" />
+		<Unit filename="Scenes/plan_eau.cpp" />
+		<Unit filename="Scenes/plan_eau.h" />
+		<Unit filename="Scenes/relief.cpp" />
+		<Unit filename="Scenes/relief.h" />
+		<Unit filename="Scenes/scene.cpp" />
+		<Unit filename="Scenes/scene.h" />
+		<Unit filename="Svg/svgfile.cpp" />
+		<Unit filename="Svg/svgfile.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

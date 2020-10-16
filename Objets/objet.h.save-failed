@@ -1,0 +1,42 @@
+#ifndef Objet_H_INCLUDED
+#define Objet_H_INCLUDED
+#include <vector>
+#include <fstream>
+#include "../Svg/svgfile.h"
+#include "../Primitives/Primitive.h"
+#include "../Aleatoire/util.h"
+#include <disk.h>
+#include <line.h>
+#include <triangle.h>
+#include <polygone.h>
+#include <ellipse.h>
+#include <polyline.h>
+#include <ellipse_gradient.h>
+#include "iostream"
+
+class Coords;
+class Primitive;
+class Objet
+{
+    protected: //->DIFF Objet BATEAU/VAISSEAU/ARBRE..JSP + differente couleur tt sa...
+        Coords m_position;
+        std::vector <Primitive*> ListePrimitives;
+
+    public:
+        Objet();
+        Objet(Coords pos1, Coords pos2);
+        virtual ~Objet();
+        virtual void dessiner(Svgfile& svgout) const;
+        virtual void afficher() const;
+        virtual void homothetie(float coef);
+        double getY() const;
+        double getX() const;
+        virtual bool operator <(const Objet& G1);
+};
+
+bool coords_in_polygon(double x, double y, std::vector <Coords*>& Liste);
+
+
+
+
+#endif // Objet_H_INCLUDED

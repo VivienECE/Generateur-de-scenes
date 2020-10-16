@@ -1,0 +1,41 @@
+TUTO NOUVEAU OBJ
+File->new->Class
+Cocher inherit class,Dans Ancestor -> objet
+En bas -> Header File/Implementation File
+Dans Folder -> Mettre le Header/Imp. file dans le même dossier blabla.../Objets
+
+PARTIE CODE
+Juste besoin d'une déclaration (comme pr montagne.h)
+Et de définir votre objet dans le .cpp
+
+°°°_Nom_Objet_.h°°°
+#include <objet.h>
+
+Class _Nom_Objet_ : public Objet                     // ! Objet =! objet
+{
+    private:
+        _Nom_Objet_(Coords p1, Coords p2, std::mt19937& graine);
+    ...
+}
+
+°°°_Nom_Objet_.cpp°°°
+#include "_Nom_Objet_.h"
+_Nom_Objet_::_Nom_Objet_(Coords p1, Coords p2, std::mt19937& graine)
+{
+    ListePrimitive.push_back(new line/disk/triangle/polygone/ellipse...(...);
+}
+
+°°°plan.h°°°
++AJOUTER #include "../Objets/_Nom_Objet.h"
+
+°°°plan.cpp°°°
+-> Mettre votre objet dans un des plans.
++AJOUTER ListeObjet.push_back(new _Nom_Objet_{m_pos1,m_pos2,rg});
+
+
+Pr l'instant 5 primitives de dispo, j'espère sa ne vous limites pas trop.
+Si vous avez besoins de d'autres primitives n'hesiter pas
+à me demander je vais essayer de coder tt sa.
+
+-------------
+N'hesiter pas à venir me poser des questions!
