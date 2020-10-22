@@ -11,7 +11,7 @@ Nuage::Nuage(Coords p1, Coords p2, std::mt19937& graine)
     Liste.push_back(new OptionGrad(100,0,Svgfile::makeRGB(250,250,200)));
     int x=util::alea(-20,(int)p2.getX(),graine);
     int y=util::alea(-30,(int)p2.getY(),graine);
-    Gradient G("radial",40,40,40,100,80,Liste);
+    Gradient G("radial",40,40,40,60,60,Liste);
     int nbr_Objet=util::alea(20,35,graine);
     for(int i=0;i<nbr_Objet;i++)
     {
