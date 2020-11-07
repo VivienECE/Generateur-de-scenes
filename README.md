@@ -18,4 +18,4 @@ Projet en C++ de génération de scènes aléatoire
 
 # Credit
 
-Copyright 2020, DETOURNAY Vivien, All rights reserved.
+Copyright 2020, DETOURNAY Vivien, PICHON Gauthier, HILT Florian All rights reserved.
