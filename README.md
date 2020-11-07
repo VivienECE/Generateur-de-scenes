@@ -16,3 +16,6 @@ Projet en C++ de génération de scènes aléatoire
 
 ![](img/plan5.png)
 
+# Credit
+
+Copyright 2020, DETOURNAY Vivien, All rights reserved.
