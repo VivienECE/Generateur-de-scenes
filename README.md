@@ -1,4 +1,4 @@
-# Generateur de scene
+# Generateur de scenes
 
 Projet en C++ de génération de scènes aléatoire
 
