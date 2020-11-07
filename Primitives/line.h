@@ -1,10 +1,22 @@
-///DETOURNAY-HILT-PICHON
-///Finalement non utilisé dans les objets
+/****************************************************************************
+ * Copyright (C) 2020 by Vivien DETOURNAY, Florian HILT, Gauthier PICHON    *
+ ****************************************************************************/
+
+/**
+ * @file line.h
+ * @author Vivien
+ * @date 07 Nov 2020
+ * @brief
+ * Classe derivee line \n
+ * Sous-classe de primitive \n
+ * Contient 2 coords + 1 couleur \n
+ */
 #ifndef Line_H
 #define Line_H
 
 #include "Primitive.h"
 
+///Primitive
 class Line : public Primitive
 {
     public:

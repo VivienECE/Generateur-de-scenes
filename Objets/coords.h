@@ -1,7 +1,18 @@
-///DETOURNAY-HILT-PICHON
+/****************************************************************************
+ * Copyright (C) 2020 by Vivien DETOURNAY, Florian HILT, Gauthier PICHON    *
+ ****************************************************************************/
+
+/**
+ * @file coords.h
+ * @author Vivien
+ * @date 07 Nov 2020
+ * @brief
+ * Classe Coords \n
+ * Contient 2 double, position X et Y \n
+ */
 #ifndef Coords_H_INCLUDED
 #define Coords_H_INCLUDED
-
+/// Coords X,Y
 class Coords
 {
     public :

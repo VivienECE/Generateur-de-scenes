@@ -1,0 +1,27 @@
+var class_svgfile =
+[
+    [ "Svgfile", "class_svgfile.html#a8c4a8b8ea0864811f2b8be13385f177b", null ],
+    [ "~Svgfile", "class_svgfile.html#a010524de2e31dfd78481f9b4eee72f69", null ],
+    [ "Svgfile", "class_svgfile.html#a18d25a6826d0e7f75c8e2177de73b83d", null ],
+    [ "addCircle", "class_svgfile.html#a3d1bff53d9ce225ebf5b6daa5423e2da", null ],
+    [ "addCircleGradient", "class_svgfile.html#a277490ba9454498c7ed0a282e18f7b6e", null ],
+    [ "addCross", "class_svgfile.html#a691d57c25adf74a3d0972a632e55c8f4", null ],
+    [ "addDisk", "class_svgfile.html#a8492d16e7f55e7b54f3f839861659489", null ],
+    [ "addEllipse", "class_svgfile.html#a8575965af5123e9ce07f5a1b678e350f", null ],
+    [ "addEllipseGradient", "class_svgfile.html#adda4d70dcd57ecf5035948d3d56ee5b0", null ],
+    [ "addGrid", "class_svgfile.html#ae76ca9ef4a798e3ea7984b298f0c252d", null ],
+    [ "addLine", "class_svgfile.html#af8ebae19a5fde7d523b908d07d13d89a", null ],
+    [ "addPolygone", "class_svgfile.html#a507b353fdf8c53107410b0f1e0260234", null ],
+    [ "addPolygoneGradient", "class_svgfile.html#a61ade4f6992a1acd4404ebb7fb846634", null ],
+    [ "addPolyline", "class_svgfile.html#a6287641795d368fc606b3d7fc4a2ba00", null ],
+    [ "addPolyline", "class_svgfile.html#a718ebf76d60a20a7684bbb5b90cb2a93", null ],
+    [ "addRect", "class_svgfile.html#aa3b2ea5ece43edcdcb33edf1171eea51", null ],
+    [ "addText", "class_svgfile.html#a92ef6fea11c4d720213e5ccb22190705", null ],
+    [ "addText", "class_svgfile.html#acb12121bb23459f257893afe21bfc855", null ],
+    [ "addTriangle", "class_svgfile.html#a2c31f32cfbb99562691ef73f97a08581", null ],
+    [ "addTriangle", "class_svgfile.html#ac17f852302c2a8b860bf12e057526903", null ],
+    [ "addTronc", "class_svgfile.html#a4a19f756b77ce705c48a1545196586a2", null ],
+    [ "GradientL", "class_svgfile.html#a1e9687e2161be4c4765b2b53bbc3f736", null ],
+    [ "GradientR", "class_svgfile.html#a2352cfeab710ca04f80b35fa8ef13a36", null ],
+    [ "operator=", "class_svgfile.html#a04caba0b907d56e31c7c238e54fdfd3b", null ]
+];

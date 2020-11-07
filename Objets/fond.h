@@ -1,10 +1,21 @@
-///DETOURNAY-HILT-PICHON
+/****************************************************************************
+ * Copyright (C) 2020 by Vivien DETOURNAY, Florian HILT, Gauthier PICHON    *
+ ****************************************************************************/
+
+/**
+ * @file fond.h
+ * @author Vivien
+ * @date 07 Nov 2020
+ * @brief
+ * Classe derivee fond \n
+ * Sous-classe de objet \n
+ */
 #ifndef Fond_H
 #define Fond_H
 
 #include <Objet.h>
 
-//Fond du Plan
+///Objet
 class Fond : public Objet
 {
     public:

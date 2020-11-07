@@ -1,9 +1,22 @@
-///DETOURNAY-HILT-PICHON
+/****************************************************************************
+ * Copyright (C) 2020 by Vivien DETOURNAY, Florian HILT, Gauthier PICHON    *
+ ****************************************************************************/
+
+/**
+ * @file ellipse_gradient.h
+ * @author Vivien
+ * @date 07 Nov 2020
+ * @brief
+ * Classe derivee ellipse_gradient \n
+ * Sous-classe de ellipse \n
+ * Contient 1 coord + 2 rayons (en X, en Y) + 1 Gradient \n
+ */
 #ifndef Ellipse_GRADIENT_H
 #define Ellipse_GRADIENT_H
 
 #include <Ellipse.h>
 
+///Primitive
 class Ellipse_gradient : public Ellipse
 {
     public:

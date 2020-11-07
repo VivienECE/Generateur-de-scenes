@@ -1,4 +1,15 @@
-///DETOURNAY-HILT-PICHON
+/****************************************************************************
+ * Copyright (C) 2020 by Vivien DETOURNAY, Florian HILT, Gauthier PICHON    *
+ ****************************************************************************/
+
+/**
+ * @file plan.h
+ * @author Vivien
+ * @date 07 Nov 2020
+ * @brief
+ * Super-classe Plan \n
+ * Un plan contient plusieurs "Objets" (etoile, herbe, montagne...)
+ */
 #ifndef Plan_H_INCLUDED
 #define Plan_H_INCLUDED
 #include <iostream>
@@ -15,7 +26,7 @@
 #include <Etoilefilante.h>
 #include <Lune.h>
 
-
+/// Ensemble d'objets
 class Plan
 {
     protected:
@@ -24,7 +35,7 @@ class Plan
         std::vector<Objet*> ListeObjet;
 
     public:
-        Plan(double y1, double y2); //y1/y2 Ordonnée haute/basse du plan
+        Plan(double y1, double y2); //y1/y2 OrdonnÃ©e haute/basse du plan
         virtual ~Plan();
         virtual void dessiner(Svgfile& svgout) const;
         virtual void homothetie();

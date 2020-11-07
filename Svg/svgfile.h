@@ -1,6 +1,17 @@
-///Fichier donnée par Mr.Fercoq dans les TP
-///Ajout Gradient,Polygone,Polyline,Ellipse
-///DETOURNAY-HILT-PICHON
+/****************************************************************************
+ * Copyright (C) 2020 by Vivien DETOURNAY, Florian HILT, Gauthier PICHON    *
+ ****************************************************************************/
+
+/**
+ * @file svgfile.h
+ * @author Vivien
+ * @date 07 Nov 2020
+ * @brief
+ *  Fichier donnÃ©e pendant les cours de TP
+ *  Fonctions d'affichage du format .svg
+ *  (Ajout Gradient,Polygone,Polyline,Ellipse)
+ *
+ */
 #ifndef SVGFILE_H_INCLUDED
 #define SVGFILE_H_INCLUDED
 
@@ -12,7 +23,10 @@
 
 constexpr char defcol[] = "black";
 
+///Classe definissant un gradient, contient une liste de OptionGrad
 class Gradient;
+
+///Classe d'un fichier svg
 class Svgfile
 {
     public:
@@ -57,10 +71,11 @@ class Svgfile
         int m_width;
         int m_height;
 
-        // Pour Ã©viter les ouverture multiples
+        // Pour ÃƒÂ©viter les ouverture multiples
         static std::set<std::string> s_openfiles;
 };
 
+///ComposÃ©e d'un gradient (couleur, opacite, offset)
 class OptionGrad
 {
     public:
@@ -69,8 +84,9 @@ class OptionGrad
         OptionGrad(int offset,int opacity,std::string couleur);
 };
 
-class Gradient // Si temps séparé en 2 classe fille+Remplacé dns tt les
-{               // fonctions déja implanté
+///Classe definissant un gradient, contient une liste de OptionGrad
+class Gradient // Si temps sÃ©parÃ© en 2 classe fille+RemplacÃ© dns tt les
+{               // fonctions dÃ©ja implantÃ©
     public:
         std::string m_type;//linear ou radial
         int m_cx,m_cy,m_r,m_fx,m_fy; //si radial

@@ -1,3 +1,17 @@
+/*! \mainpage Presentation
+ *
+ * \section intro_sec Projet
+ *
+ * Programme de generation de scenes aléatoires en C. \n
+ * Projet d'ecole d'ingenieurs : ECE PARIS.LYON \n
+ * Travail de 4 semaines, rendu en decembre 2018. \n\n
+ *
+ * Membre de l'equipe : \n
+ * - Vivien DETOURNAY \n
+ * - Florian HILT \n
+ * - Gauthier PICHON
+ *
+ */
 #include <iostream>
 #include "Svg/svgfile.h"
 #include "scene.h"
@@ -6,7 +20,7 @@
 
 int main()
 {
-    int choix,graine;
+    int choix;
     int choixscene[1];
 
     std::cout << "0->Quitter"<< std::endl
@@ -30,6 +44,7 @@ int main()
             }
             case 2:
             {
+                int graine;
                 std::cout << "Numero graine:";
                 std::cin >> graine;
                 std::cout << "Jour 0, Soir 1, Nuit 2:";

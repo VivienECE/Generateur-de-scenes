@@ -91,74 +91,74 @@ WARN_IF_UNDOCUMENTED   = NO
 WARN_IF_DOC_ERROR      = YES
 WARN_NO_PARAMDOC       = YES
 WARN_FORMAT            = "$file:$line: $text"
-WARN_LOGFILE            = "C:\Users\Vivien\Desktop\04\doxygen\doxygen.log"
+WARN_LOGFILE            = "C:\Users\Vivien\Documents\GitHub\Projet\SceneGenerator2\SceneGenerator\doxygen\doxygen.log"
 #---------------------------------------------------------------------------
 # configuration options related to the input files
 #---------------------------------------------------------------------------
 INPUT                  = \
+	"..\Scenes\plan_eau.h" \
 	"..\Objets\etoilefilante.cpp" \
-	"..\Scenes\relief.cpp" \
-	"..\Objets\etoile.cpp" \
-	"..\Scenes\plaine.cpp" \
-	"..\Aleatoire\util.h" \
-	"..\Scenes\ciel\jour.h" \
-	"..\Objets\objet.h" \
-	"..\Scenes\plaine.h" \
-	"..\Primitives\triangle.h" \
-	"..\Objets\vague.cpp" \
-	"..\Scenes\scene.cpp" \
-	"..\Svg\svgfile.h" \
-	"..\Primitives\ellipse.cpp" \
-	"..\Scenes\ciel.h" \
-	"..\main.cpp" \
-	"..\Objets\Herbe.cpp" \
-	"..\Scenes\scene.h" \
+	"..\Primitives\disk.cpp" \
 	"..\Scenes\ciel\jour.cpp" \
 	"..\Primitives\ellipse_gradient.cpp" \
-	"..\Scenes\plan.h" \
-	"..\Aleatoire\util.cpp" \
-	"..\Scenes\ciel\soir.h" \
-	"..\Objets\etoile.h" \
-	"..\Objets\coords.cpp" \
-	"..\Primitives\triangle.cpp" \
-	"..\Objets\fond.h" \
-	"..\Objets\lune.cpp" \
-	"..\Scenes\plan_eau.cpp" \
-	"..\Objets\Herbe.h" \
-	"..\Objets\montagne.h" \
-	"..\Objets\etoilefilante.h" \
-	"..\Objets\objet.cpp" \
-	"..\Scenes\ciel\nuit.h" \
-	"..\Primitives\polyline.h" \
-	"..\Objets\lune.h" \
-	"..\Scenes\plan.cpp" \
-	"..\Primitives\polygone_gradient.h" \
-	"..\Objets\soleil.cpp" \
-	"..\Primitives\primitive.cpp" \
-	"..\Primitives\disk.cpp" \
-	"..\Primitives\primitive.h" \
-	"..\Objets\montagne.cpp" \
-	"..\Scenes\relief.h" \
-	"..\Primitives\polygone.cpp" \
-	"..\Primitives\disk.h" \
-	"..\Primitives\polygone.h" \
-	"..\Primitives\ellipse.h" \
-	"..\Primitives\polygone_gradient.cpp" \
-	"..\Objets\nuage.h" \
 	"..\Scenes\ciel\nuit.cpp" \
-	"..\Primitives\polyline.cpp" \
-	"..\Primitives\ellipse_gradient.h" \
-	"..\Scenes\plan_eau.h" \
-	"..\Primitives\line.h" \
+	"..\Primitives\polygone.h" \
+	"..\Scenes\ciel\soir.cpp" \
 	"..\Primitives\line.cpp" \
-	"..\Objets\coords.h" \
+	"..\Scenes\plaine.h" \
+	"..\Objets\montagne.h" \
+	"..\Objets\fond.h" \
+	"..\Scenes\ciel\jour.h" \
+	"..\Objets\objet.h" \
+	"..\Scenes\relief.h" \
 	"..\Objets\fond.cpp" \
-	"..\Objets\soleil.h" \
-	"..\Svg\svgfile.cpp" \
+	"..\Scenes\plan.cpp" \
+	"..\Objets\vague.cpp" \
+	"..\Svg\svgfile.h" \
+	"..\Objets\lune.h" \
+	"..\Scenes\scene.cpp" \
+	"..\Objets\etoile.cpp" \
+	"..\main.cpp" \
+	"..\Objets\etoilefilante.h" \
+	"..\Scenes\plan.h" \
+	"..\Objets\montagne.cpp" \
+	"..\Primitives\polyline.h" \
+	"..\Scenes\scene.h" \
 	"..\Objets\vague.h" \
+	"..\Primitives\triangle.cpp" \
+	"..\Objets\Herbe.cpp" \
+	"..\Scenes\ciel.h" \
+	"..\Objets\Herbe.h" \
 	"..\Scenes\ciel.cpp" \
+	"..\Objets\etoile.h" \
+	"..\Scenes\plan_eau.cpp" \
+	"..\Primitives\primitive.cpp" \
 	"..\Objets\nuage.cpp" \
-	"..\Scenes\ciel\soir.cpp" 
+	"..\Svg\svgfile.cpp" \
+	"..\Primitives\primitive.h" \
+	"..\Primitives\disk.h" \
+	"..\Scenes\plaine.cpp" \
+	"..\Primitives\triangle.h" \
+	"..\Objets\nuage.h" \
+	"..\Primitives\polyline.cpp" \
+	"..\Primitives\ellipse.cpp" \
+	"..\Objets\lune.cpp" \
+	"..\Objets\objet.cpp" \
+	"..\Objets\soleil.h" \
+	"..\Primitives\ellipse.h" \
+	"..\Primitives\ellipse_gradient.h" \
+	"..\Scenes\ciel\nuit.h" \
+	"..\Aleatoire\util.cpp" \
+	"..\Objets\soleil.cpp" \
+	"..\Scenes\ciel\soir.h" \
+	"..\Objets\coords.cpp" \
+	"..\Primitives\line.h" \
+	"..\Objets\coords.h" \
+	"..\Primitives\polygone.cpp" \
+	"..\Aleatoire\util.h" \
+	"..\Primitives\polygone_gradient.cpp" \
+	"..\Scenes\relief.cpp" \
+	"..\Primitives\polygone_gradient.h" 
 INPUT_ENCODING         = UTF-8
 FILE_PATTERNS          =
 RECURSIVE              = NO

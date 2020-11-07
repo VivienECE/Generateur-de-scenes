@@ -1,4 +1,15 @@
-///DETOURNAY-HILT-PICHON
+/****************************************************************************
+ * Copyright (C) 2020 by Vivien DETOURNAY, Florian HILT, Gauthier PICHON    *
+ ****************************************************************************/
+
+/**
+ * @file objet.h
+ * @author Vivien
+ * @date 07 Nov 2020
+ * @brief
+ * Super-classe objet \n
+ * Contient une liste de primitive et une coordonnees (x,y) \n
+ */
 #ifndef Objet_H_INCLUDED
 #define Objet_H_INCLUDED
 #include <vector>
@@ -20,6 +31,8 @@
 
 class Coords;
 class Primitive;
+
+/// Ensemble de primitives representant un objet identifiable
 class Objet
 {
     protected: //->DIFF Objet BATEAU/VAISSEAU/ARBRE..JSP + differente couleur tt sa...
