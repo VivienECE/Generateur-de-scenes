@@ -1,6 +1,6 @@
 # Generateur de scenes
 
-Projet en C++ de génération de scènes aléatoire
+Projet en C++ de génération de scènes aléatoires
 
 - Génération d'un fichier svg
 
